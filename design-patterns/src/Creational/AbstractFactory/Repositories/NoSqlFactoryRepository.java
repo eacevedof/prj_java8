@@ -1,5 +1,6 @@
 package Creational.AbstractFactory.Repositories;
 
+
 public class NoSqlFactoryRepository implements AbstractFactoryRepositoryInterface {
     @Override
     public AlumnosRepositoryInterface getAlumnosRepository() {

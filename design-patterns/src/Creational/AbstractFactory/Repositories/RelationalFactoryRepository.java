@@ -1,5 +1,6 @@
 package Creational.AbstractFactory.Repositories;
 
+
 public class RelationalFactoryRepository implements AbstractFactoryRepositoryInterface {
     @Override
     public AlumnosRepositoryInterface getAlumnosRepository() {
