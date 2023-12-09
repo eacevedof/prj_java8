@@ -1,4 +1,4 @@
-package Creational.AbstractFactory;
+package Creational.AbstractFactory.Repositories;
 
 import java.util.ArrayList;
 import java.util.List;

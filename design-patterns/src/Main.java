@@ -1,5 +1,5 @@
-import Creational.AbstractFactory.AlumnosView;
-import Creational.AbstractFactory.CursosView;
+import Creational.AbstractFactory.Views.AlumnosView;
+import Creational.AbstractFactory.Views.CursosView;
 
 public final class Main {
     public static void main(String[] args) {

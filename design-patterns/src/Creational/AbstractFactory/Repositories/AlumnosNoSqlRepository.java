@@ -1,14 +1,14 @@
-package Creational.AbstractFactory;
+package Creational.AbstractFactory.Repositories;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class AlumnosRelationalRepository implements AlumnosRepositoryInterface{
+public class AlumnosNoSqlRepository implements AlumnosRepositoryInterface{
     @Override
     public List<String> getListaAlumnos() {
         List<String> stringList = new ArrayList<>();
 
-        stringList.add("Eduardo A.F Com");
+        stringList.add("Eduardo A.F NoSQL");
         stringList.add("Droopy");
         stringList.add("Chris A.F.");
         stringList.add("Dayana A.F.");
