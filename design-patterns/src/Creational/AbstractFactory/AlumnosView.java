@@ -6,13 +6,11 @@ import java.util.List;
 
 public final class AlumnosView extends PrintView {
 
-    public static AlumnosView getInstance()
-    {
+    public static AlumnosView getInstance() {
         return new AlumnosView();
     }
 
-    public void printAlumnos()
-    {
+    public void printAlumnos() {
         this.pr("");
         this.pr("=== Lista de Alumnos ===");
         List<String> listaAlumnos = (new AlumnosRepository()).getListaAlumnos();
