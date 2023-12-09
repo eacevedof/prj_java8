@@ -7,6 +7,9 @@ import Creational.AbstractFactory.Repositories.CursosNoSqlRepository;
 import Creational.AbstractFactory.Repositories.CursosRepositoryInterface;
 
 public class NoSqlFactoryRepository implements AbstractFactoryRepositoryInterface {
+    public static NoSqlFactoryRepository getInstance() {
+        return new NoSqlFactoryRepository();
+    }
     @Override
     public AlumnosRepositoryInterface getAlumnosRepository() {
         return AlumnosNoSqlRepository.getInstance();

@@ -1,4 +1,3 @@
-import Creational.AbstractFactory.Views.AlumnosView;
 import Creational.AbstractFactory.Views.CursosView;
 import Creational.AbstractFactory.Enums.DbTypeEnum;
 
@@ -10,7 +9,6 @@ public final class Main {
         if (inputDbType.equals(DbTypeEnum.NOSQL.getValue()))
             dbTypeEnum = DbTypeEnum.NOSQL;
 
-        AlumnosView.getInstance().printAlumnos(dbTypeEnum);
         CursosView.getInstance().printCursos(dbTypeEnum);
     }
 }
