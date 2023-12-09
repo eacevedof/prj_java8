@@ -3,9 +3,9 @@ package Creational.AbstractFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CursosRelationalRepository implements AlumnosRepositoryInterface{
+public class CursosRelationalRepository implements CursosRepositoryInterface{
     @Override
-    public List<String> getListaAlumnos() {
+    public List<String> getListCursos() {
         List<String> stringList = new ArrayList<>();
 
         stringList.add("Filosofía");
