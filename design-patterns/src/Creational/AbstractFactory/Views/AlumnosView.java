@@ -24,7 +24,7 @@ public final class AlumnosView extends PrintView {
         if (dbTypeEnum == DbTypeEnum.NOSQL)
             listaAlumnos = AlumnosNoSqlRepository.getInstance().getListaAlumnos();
 
-        this.pr("=== Lista de Alumnos === ".concat(dbTypeEnum.getValue()));
+        this.pr("\n=== Lista de Alumnos === ".concat(dbTypeEnum.getValue()));
         this.prList(listaAlumnos);
     }
 }
