@@ -7,7 +7,7 @@ public final class Main {
         String inputDbType = args.length>0 ? args[0] : "";
 
         DbTypeEnum dbTypeEnum = DbTypeEnum.RELATIONAL;
-        if (inputDbType == DbTypeEnum.NOSQL.getValue())
+        if (inputDbType.equals(DbTypeEnum.NOSQL.getValue()))
             dbTypeEnum = DbTypeEnum.NOSQL;
 
         AlumnosView.getInstance().printAlumnos(dbTypeEnum);
