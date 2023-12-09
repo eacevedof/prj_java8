@@ -6,7 +6,6 @@ public enum DbTypeEnum {
 
     private final String strValue;
 
-    // Constructor privado para asignar el valor a cada constante
     DbTypeEnum(String strValue) {
         this.strValue = strValue;
     }
