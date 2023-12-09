@@ -1,10 +1,10 @@
 package Creational.AbstractFactory.Factories;
 
 
-import Creational.AbstractFactory.Repositories.AlumnosNoSqlRepository;
-import Creational.AbstractFactory.Repositories.AlumnosRepositoryInterface;
-import Creational.AbstractFactory.Repositories.CursosNoSqlRepository;
-import Creational.AbstractFactory.Repositories.CursosRepositoryInterface;
+import Creational.AbstractFactory.Repositories.NoSql.AlumnosNoSqlRepository;
+import Creational.AbstractFactory.Repositories.Interfaces.AlumnosRepositoryInterface;
+import Creational.AbstractFactory.Repositories.NoSql.CursosNoSqlRepository;
+import Creational.AbstractFactory.Repositories.Interfaces.CursosRepositoryInterface;
 
 public class NoSqlFactoryRepository implements AbstractFactoryRepositoryInterface {
     public static NoSqlFactoryRepository getInstance() {

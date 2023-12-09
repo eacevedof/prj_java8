@@ -1,9 +1,11 @@
-package Creational.AbstractFactory.Repositories;
+package Creational.AbstractFactory.Repositories.NoSql;
+
+import Creational.AbstractFactory.Repositories.Interfaces.AlumnosRepositoryInterface;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class AlumnosNoSqlRepository implements AlumnosRepositoryInterface{
+public class AlumnosNoSqlRepository implements AlumnosRepositoryInterface {
 
     public static AlumnosNoSqlRepository getInstance() {
         return new AlumnosNoSqlRepository();

@@ -1,4 +1,6 @@
-package Creational.AbstractFactory.Repositories;
+package Creational.AbstractFactory.Repositories.Relational;
+
+import Creational.AbstractFactory.Repositories.Interfaces.CursosRepositoryInterface;
 
 import java.util.ArrayList;
 import java.util.List;

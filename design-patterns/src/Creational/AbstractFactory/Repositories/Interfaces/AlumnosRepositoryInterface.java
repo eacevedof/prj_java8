@@ -1,4 +1,4 @@
-package Creational.AbstractFactory.Repositories;
+package Creational.AbstractFactory.Repositories.Interfaces;
 
 import java.util.List;
 

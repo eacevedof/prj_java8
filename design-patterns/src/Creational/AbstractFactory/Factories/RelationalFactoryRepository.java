@@ -1,10 +1,10 @@
 package Creational.AbstractFactory.Factories;
 
 
-import Creational.AbstractFactory.Repositories.AlumnosRelationalRepository;
-import Creational.AbstractFactory.Repositories.AlumnosRepositoryInterface;
-import Creational.AbstractFactory.Repositories.CursosRelationalRepository;
-import Creational.AbstractFactory.Repositories.CursosRepositoryInterface;
+import Creational.AbstractFactory.Repositories.Relational.AlumnosRelationalRepository;
+import Creational.AbstractFactory.Repositories.Interfaces.AlumnosRepositoryInterface;
+import Creational.AbstractFactory.Repositories.Relational.CursosRelationalRepository;
+import Creational.AbstractFactory.Repositories.Interfaces.CursosRepositoryInterface;
 
 public class RelationalFactoryRepository implements AbstractFactoryRepositoryInterface {
 
