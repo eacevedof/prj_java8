@@ -13,7 +13,7 @@ public final class CursosView extends PrintView {
 
     public void printCursos() {
         this.pr("=== Lista de Cursos ===");
-        List<String> listaCursos = (new CursosRelationalRepository()).getListCursos();
+        List<String> listaCursos = CursosRelationalRepository.getInstance().getListCursos();
         this.prList(listaCursos);
     }
 }

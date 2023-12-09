@@ -3,7 +3,10 @@ package Creational.AbstractFactory.Repositories;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CursosRelationalRepository implements CursosRepositoryInterface{
+public class CursosRelationalRepository implements CursosRepositoryInterface {
+    public static CursosRelationalRepository getInstance() {
+        return new CursosRelationalRepository();
+    }
     @Override
     public List<String> getListCursos() {
         List<String> stringList = new ArrayList<>();

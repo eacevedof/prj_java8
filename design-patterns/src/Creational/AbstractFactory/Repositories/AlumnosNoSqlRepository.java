@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AlumnosNoSqlRepository implements AlumnosRepositoryInterface{
+
+    public static AlumnosNoSqlRepository getInstance() {
+        return new AlumnosNoSqlRepository();
+    }
+
     @Override
     public List<String> getListaAlumnos() {
         List<String> stringList = new ArrayList<>();
