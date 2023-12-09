@@ -1,8 +1,10 @@
 package Creational.AbstractFactory;
 
+import Infrastructure.Views.PrintView;
+
 import java.util.List;
 
-public final class AlumnosView {
+public final class AlumnosView extends PrintView {
 
     public static AlumnosView getInstance()
     {
@@ -19,10 +21,5 @@ public final class AlumnosView {
             var message = "(".concat(String.valueOf(i+1)).concat(") ").concat(alumno);
             this.pr(message);
         }
-    }
-
-    private void pr(String message)
-    {
-        System.out.println(message);
     }
 }
