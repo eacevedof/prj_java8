@@ -3,7 +3,7 @@ package Creational.AbstractFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AlumnosRepository implements AlumnosRepositoryInterface{
+public class AlumnosRelationalRepository implements AlumnosRepositoryInterface{
     @Override
     public List<String> getListaAlumnos() {
         List<String> stringList = new ArrayList<>();

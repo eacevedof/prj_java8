@@ -13,7 +13,7 @@ public final class AlumnosView extends PrintView {
     public void printAlumnos() {
         this.pr("");
         this.pr("=== Lista de Alumnos ===");
-        List<String> listaAlumnos = (new AlumnosRepository()).getListaAlumnos();
+        List<String> listaAlumnos = (new AlumnosRelationalRepository()).getListaAlumnos();
         for (int i=0; i<listaAlumnos.size(); i++) {
             var alumno = listaAlumnos.get(i);
             var message = "(".concat(String.valueOf(i+1)).concat(") ").concat(alumno);
