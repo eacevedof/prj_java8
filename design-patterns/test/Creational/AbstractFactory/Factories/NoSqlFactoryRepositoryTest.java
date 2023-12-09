@@ -2,7 +2,7 @@ package Creational.AbstractFactory.Factories;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NoSqlFactoryRepositoryTest {
+final class NoSqlFactoryRepositoryTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
