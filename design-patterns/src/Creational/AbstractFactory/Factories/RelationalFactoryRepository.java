@@ -1,5 +1,10 @@
-package Creational.AbstractFactory.Repositories;
+package Creational.AbstractFactory.Factories;
 
+
+import Creational.AbstractFactory.Repositories.AlumnosRelationalRepository;
+import Creational.AbstractFactory.Repositories.AlumnosRepositoryInterface;
+import Creational.AbstractFactory.Repositories.CursosRelationalRepository;
+import Creational.AbstractFactory.Repositories.CursosRepositoryInterface;
 
 public class RelationalFactoryRepository implements AbstractFactoryRepositoryInterface {
     @Override
